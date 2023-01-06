@@ -1,0 +1,237 @@
+.swiper {
+    width: 100%;
+    height: 750px;
+  }
+.swiper-button-color{
+  color: var(--bg-color-2);
+}
+.swiper-button-color > .swiper-pagination-bullet-active{
+  background-color: var(--bg-color-2);
+}
+.sw_text__box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sw_text__box >h1{
+  font-size: 55px;
+  color: white;
+}
+
+  .swiper-slide {
+    /* text-align: center;
+    font-size: 18px;
+    background: #fff; */
+
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; */
+  }
+
+  /* 슬라이더 포트폴리오 영역 start */
+
+  .portfolio-container {
+	width:100%;
+	height:330px;
+  overflow-x: hidden;
+}
+.portfolio__card {
+	text-align:inherit;
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+	align-items:baseline; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+	background-color:#fff;
+	border-radius:5px;
+	box-sizing:border-box; /* 이 설정을 하지 않으면 슬라이드시 큐브가 틀어짐 */
+	/* 아래에 있는 실행가능한 소스를 가지고 실험해 보세요 */
+  position: relative;
+  width: 200px;
+  overflow: var(--img-hidden);
+}
+.swiper-3d .swiper-slide-shadow-left,.swiper-3d .swiper-slide-shadow-right {
+  background-image:none;
+}
+
+/* li 버튼 커스텀 */
+.swiper-pagination-port >.swiper-pagination {
+     position: absolute;
+     top: 50%; left: 5%; 
+     transform: translateY(-50%);
+}
+.swiper-pagination-port >.swiper-pagination-bullet { 
+    width: 25%; 
+    min-height: 30px;
+    margin: 0 auto !important; 
+    background: transparent; 
+    text-align: center;
+    opacity: 1;
+    color: var(--bg-color-2);
+    font-weight: var(--font-semi-bold); 
+}
+
+/* swiper page 버튼 호버 */
+
+
+.swiper-pagination-port >.swiper-pagination-bullet:after{
+    display: block;
+    content: '';
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: solid 2.5px wheat;
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out
+}
+.swiper-pagination-port >.swiper-pagination-bullet-active{
+  color: var(--bg-color-1);
+}
+.swiper-pagination-port >.swiper-pagination-bullet-active:after{
+    transform: scaleX(1);
+}
+
+    /* 슬라이더 포트폴리오 영역 end */
+
+/* 슬라이더 */
+
+
+.portfolio__data {
+  position: absolute;
+  bottom: 3.8rem;
+  left: 3rem;
+}
+@media screen and (max-width: 777px){
+.portfolio__data {
+    left: 0rem;
+}
+}
+
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-25);
+  color: var(--title-color);
+}
+
+
+/* 슬라이더 */
+
+/* 슬라이더 포트폴리오 Start */
+
+
+.discover__container .swiper-button-next,
+.discover__container .swiper-button-prev {
+    /* 3rem 크기의 원을 만듭니다. */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    /* 네비게이션 버튼을 만들기 위한 속성입니다. */
+    color: #ffffff;
+    background-color: grey;
+    opacity: 1;
+}
+
+.discover__container .swiper-button-prev,
+.discover__container .swiper-rtl .swiper-button-next {
+    /* prev 화살표 위치를 조정합니다. */
+    z-index: 15;
+    left: 40%;
+    right: auto;
+    bottom: 1%;
+    top: auto;
+}
+
+.discover__container .swiper-button-next,
+.discover__container .swiper-rtl .swiper-button-prev {
+    /* next 화살표 위치를 조정합니다. */
+    z-index: 15;
+    left: auto;
+    right: 40%;
+    bottom: 1%;
+    top: auto;
+}
+@media screen and (max-width: 708px){
+  .discover__container .swiper-button-prev,
+.discover__container .swiper-rtl .swiper-button-next {
+  left: 20%;
+  }
+  .discover__container .swiper-button-next,
+.discover__container .swiper-rtl .swiper-button-prev {
+  right: 20%;
+}
+}
+.discover__container .swiper-button-next:after,
+.discover__container .swiper-button-prev:after{
+  font-size: 1.5rem;
+}
+/* 슬라이더 포트폴리오 End */
+
+/* Process box Start */
+.process_box_wrap{
+  width: 525px;
+}
+.process_slide > img{
+  width: 100%;
+  height: 300px;
+}
+
+
+.process__button{
+  color: inherit;
+}
+
+.swiper-cube .swiper-cube-shadow:before {
+  background: none;
+}
+.process__data {
+  position: absolute;
+  right: -21.34375rem;
+  top: -4rem;
+}
+@media screen and (max-width: 991px){
+  .process__data {
+    position: absolute;
+    right: 70%;
+    top: -1rem;
+  }
+  .process_slide > img{
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 565px){
+  .process__data{
+    right: 62%;
+  }
+}
+@media screen and (max-width: 450px){
+  .process__data{
+    right: 52%;
+  }
+}
+
+.process__data > h2{
+  color: var(--bg-color-1);
+}
+
+.process__data_cont {
+  margin-top: 30px;
+}
+.process__data_cont > p{
+  margin-right: 70px;
+  margin-top: 50px;
+  color: var(--bg-color-2);
+  font-weight: var(--font-semi-bold);
+  font-family: var( --body-font);
+  font-size: 18px;
+}
+
+/* Process box End */

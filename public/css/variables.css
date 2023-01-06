@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+:root {
+    --header-height: 4rem;
+    --body-font: "Open Sans", sans-serif;
+    --font-semi-bold: 600;
+
+      /*========== Font and typography ==========*/
+  --body-font: "Open Sans", sans-serif;
+  --title-font: "Raleway", sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 2.6rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1rem;
+  /* --normal-font-size: 0.938rem; */
+  --normal-font-size: 1.0625rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+    --z-fixed: 100;
+
+    --mb-1: 1rem;
+
+    --a-color:grey;
+    --a-color-hover:black;
+
+    --title-color:black;
+
+    --bg-color-1:wheat;
+    --bg-color-2:white;
+
+    --h2-title-color:#3D313F;
+
+    --b1-color-h: 23;
+    --b1-color-s: 20%;
+    --b1-color-l: 86%;
+
+    --b2-color-h: 203;
+    --b2-color-s: 22%;
+    --b2-color-l: 67%;
+    
+    --b3-color-h: 354;
+    --b3-color-s: 15%;
+    --b3-color-l: 52%;
+
+    --b4-color-h: 291;
+    --b4-color-s: 22%;
+    --b4-color-l: 25%;
+
+    
+    --btc-color-h: 240;
+    --btc-color-s: 40%;
+    --btc-color-l: 40%;
+
+    --green-color-h: 81;
+    --green-color-s: 50%;
+    --green-color-l: 41%;
+   
+    --red-color-h: 2;
+    --red-color-s: 50%;
+    --red-color-l: 45%;
+   
+    --blue-color-h: 183;
+    --blue-color-s: 49%;
+    --blue-color-l: 27%; 
+
+     /*========== Hover overlay ==========*/
+  --img-transition: 0.3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+
+    --b1-color: hsl(var(--b1-color-h), var(--b1-color-s), var(--b1-color-l));
+    
+    --b2-color: hsl(var(--b2-color-h), var(--b2-color-s), var(--b2-color-l));
+
+    --b3-color: hsl(var(--b3-color-h), var(--b3-color-s), var(--b3-color-l));
+
+    --b4-color: hsl(var(--b4-color-h), var(--b4-color-s), var(--b4-color-l));
+
+    --btc-color: hsl(var(--grebtcen-color-h), var(--btc-color-s), var(--btc-color-l));
+    --btc-color-10: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 5%));
+    --btc-color-20: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 10%));
+    --btc-color-30: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 15%));
+    --btc-color-40: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 20%));
+    --btc-color-50: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 25%));
+    --btc-color-60: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 30%));
+    --btc-color-70: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 35%));
+    --btc-color-80: hsl(var(--btc-color-h), var(--btc-color-s), calc(var(--btc-color-l) + 40%));
+   
+ 
+    --green-color: hsl(var(--green-color-h), var(--green-color-s), var(--green-color-l));
+    --green-color-10: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 5%));
+    --green-color-20: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 10%));
+    --green-color-30: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 15%));
+    --green-color-40: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 20%));
+    --green-color-50: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 25%));
+    --green-color-60: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 30%));
+    --green-color-70: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 35%));
+    --green-color-80: hsl(var(--green-color-h), var(--green-color-s), calc(var(--green-color-l) + 40%));
+   
+    --red-color: hsl(var(--red-color-h), var(--red-color-s), var(--red-color-l));
+    --red-color-10: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 5%));
+    --red-color-20: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 10%));
+    --red-color-30: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 15%));
+    --red-color-40: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 20%));
+    --red-color-50: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 25%));
+    --red-color-60: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 30%));
+    --red-color-70: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 35%));
+    --red-color-80: hsl(var(--red-color-h), var(--red-color-s), calc(var(--red-color-l) + 40%));
+   
+    --blue-color: hsl(var(--blue-color-h), var(--blue-color-s), var(--blue-color-l));
+    --blue-color-10: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 5%));
+    --blue-color-20: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 10%));
+    --blue-color-30: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 15%));
+    --blue-color-40: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 20%));
+    --blue-color-50: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 25%));
+    --blue-color-60: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 30%));
+    --blue-color-70: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 35%));
+    --blue-color-80: hsl(var(--blue-color-h), var(--blue-color-s), calc(var(--blue-color-l) + 40%));
+ }
+      
+ .green {
+   background: var(--green-color);
+ }
+ 
+ .green-10 {
+   background: var(--green-color-10);
+ }
+ 
+ .green-20 {
+   background: var(--green-color-20);
+ }
+ 
+ .green-30 {
+   background: var(--green-color-30);
+ }
+ 
+ .green-40 {
+   background: var(--green-color-40);
+ }
+ 
+ .green-50 {
+   background: var(--green-color-50);
+ }
+ 
+ .green-60 {
+   background: var(--green-color-60);
+ }
+ 
+ .green-70 {
+   background: var(--green-color-70);
+ }
+ 
+ .green-80 {
+   background: var(--green-color-80);
+ }
+      
+ .red {
+     background: var(--red-color);
+ }
+ 
+ .red-10 {
+     background: var(--red-color-10);
+ }
+ 
+ .red-20 {
+     background: var(--red-color-20);
+ }
+ 
+ .red-30 {
+     background: var(--red-color-30);
+ }
+ 
+ .red-40 {
+     background: var(--red-color-40);
+ }
+ 
+ .red-50 {
+     background: var(--red-color-50);
+ }
+ 
+ .red-60 {
+     background: var(--red-color-60);
+ }
+ 
+ .red-70 {
+     background: var(--red-color-70);
+ }
+ 
+ .red-80 {
+     background: var(--red-color-80);
+ }
+ 
+ .blue {
+     background: var(--blue-color);
+ }
+ 
+ .blue-10 {
+     background: var(--blue-color-10);
+ }
+ 
+ .blue-20 {
+     background: var(--blue-color-20);
+ }
+ 
+ .blue-30 {
+     background: var(--blue-color-30);
+ }
+ 
+ .blue-40 {
+     background: var(--blue-color-40);
+ }
+ 
+ .blue-50 {
+     background: var(--blue-color-50);
+ }
+ 
+ .blue-60 {
+     background: var(--blue-color-60);
+ }
+ 
+ .blue-70 {
+     background: var(--blue-color-70);
+ }
+ 
+ .blue-80 {
+     background: var(--blue-color-80);
+ }
+
+ 
