@@ -36,6 +36,10 @@ Route::get('/service', function(){
     return view('about_service/service');
 })->name('service');
 
+Route::get('/service_2', function(){
+    return view('about_service/service_2');
+})->name('service_2');
+
 Route::get('/portfolio', function(){
     return view('portfolio_list/portfolio');
 })->name('portfolio');
