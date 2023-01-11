@@ -20,17 +20,17 @@
     </div>
     <div class="inner_wrap container">
         <div class="about_box">
-            <h2>ALL</h2>
-
-            <div class="port_img_wrap">
-                <div class="port_imgs_box" OnClick="location.href ='web_1'"><img src="/imgs/portfolio/port2.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">Wedding View</span><br><span class="port_cont">#WEB #반응형<span></div></div>
-                <div class="port_imgs_box" OnClick="location.href ='web_2'"><img src="/imgs/portfolio/port3.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">Emto</span><br><span class="port_cont">#WEB #반응형<span></div></div>
-                <div class="port_imgs_box" OnClick="location.href ='web_3'"><img src="/imgs/portfolio/port4.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">대길부산의전</span><br><span class="port_cont">#WEB #반응형<span></div></div>
+            <h2>대길부산의전</h2>
+            <p class="port_detail_text">반응형 웹 제작</p>
+            <div class="port_detail_wrap">
+            <img src="/imgs/portfolio/port4.png" alt="" class="">
+            <p class="port_detail_text mt-10">대길부산의전 반응형 웹 사이트 제작</p>
+            <p class="port_detail_text">정리된 레이아웃으로 전문적인 정보를 가독성 있게 읽어나갈 수 있도록 의도하였습니다.</p>           
             </div>
+        <div class="d_port_img_wrap">
+            <img src="/imgs/portfolio/web/d_web_3.png" class="d_port_img">
+        </div>
         </div>
     </div>
-
-    
-</div>
 
 @endsection

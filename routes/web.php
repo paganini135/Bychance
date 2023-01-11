@@ -85,6 +85,20 @@ Route::get('/detail_contact', function(){
 })->name('detail_contact');
 
 // 백엔드 전 임시 라우팅 처리 
+// 웹
+Route::get('/web_1', function(){
+    return view('portfolio_web/web_1');
+})->name('web_1');
+
+Route::get('/web_2', function(){
+    return view('portfolio_web/web_2');
+})->name('web_2');
+
+Route::get('/web_3', function(){
+    return view('portfolio_web/web_3');
+})->name('web_3');
+
+
 Route::get('/catal_1', function(){
     return view('portfolio_catal/catal_1');
 })->name('catal_1');
