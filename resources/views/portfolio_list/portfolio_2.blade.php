@@ -23,42 +23,14 @@
             <h2>ALL</h2>
 
             <div class="port_img_wrap">
-                <div class="port_imgs_box"><img src="/imgs/portfolio/port1.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">담쏙</span><br><span class="port_cont">#상세페이지<span></div></div>
-                <!-- <div class="port_imgs_box modal1"><img src="/imgs/portfolio/port2.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">Wedding View</span><br><span class="port_cont">#WEB #반응형<span></div></div> -->
-                <!-- <div class="port_imgs_box modal2"><img src="/imgs/portfolio/port3.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">Emto</span><br><span class="port_cont">#WEB #반응형<span></div></div>
-                <div class="port_imgs_box"><img src="/imgs/portfolio/port4.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">대길부산의전</span><br><span class="port_cont">#WEB #반응형<span></div></div>
-                <div class="port_imgs_box"><img src="/imgs/portfolio/port5.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">WEB</span><br><span class="port_cont">#테스트 #반응형<span></div></div>
-                <div class="port_imgs_box"><img src="/imgs/portfolio/bro_test.jpg" alt="" class=""><div class="port_box_tit"><span class="port_tit">TEST</span><br><span class="port_cont">#Brochure #반응형<span></div></div> -->
+                <div class="port_imgs_box" OnClick="location.href ='product_detail_1'"><img src="/imgs/portfolio/product/product_1.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">담쏙</span><br><span class="port_cont">#상세페이지<span></div></div>
+                <div class="port_imgs_box" OnClick="location.href ='product_detail_2'"><img src="/imgs/portfolio/product/product_2.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">러블리강정-오란다</span><br><span class="port_cont">#상세페이지<span></div></div>
+                <div class="port_imgs_box" OnClick="location.href ='product_detail_3'"><img src="/imgs/portfolio/product/product_3.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">러블리강정</span><br><span class="port_cont">#상세페이지<span></div></div>
+                <div class="port_imgs_box" OnClick="location.href ='product_detail_4'"><img src="/imgs/portfolio/product/product_4.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">웨딩라이브</span><br><span class="port_cont">#상세페이지<span></div></div>
             </div>
         </div>
     </div>
 
-    <div class="modal hidden">
-        <div class="bg"></div>
-        <div class="modalBox">           
-            <img src="/imgs/portfolio/port2.png" alt="" class="">
-            <p>프로젝트<span>반응형 웹</span></p>
-            <p>업체명<span>Wedding View</span></p>
-            <p>설명<span>웨딩뷰 반응형 웹 제작</span></p>
-            <button class="closeBtn">X</button>
-        </div>
-    </div>
-
-    <script>
-  const open = () => {
-    document.querySelector(".modal").classList.remove("hidden");
-  }
-
-  const close = () => {
-    document.querySelector(".modal").classList.add("hidden");
-  }
-  
-
-  document.querySelector(".port_imgs_box").addEventListener("click", open);
-  document.querySelector(".closeBtn").addEventListener("click", close);
-  document.querySelector(".bg").addEventListener("click", close);
-
-</script>
 </div>
 
 @endsection

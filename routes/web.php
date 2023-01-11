@@ -40,6 +40,14 @@ Route::get('/service_2', function(){
     return view('about_service/service_2');
 })->name('service_2');
 
+Route::get('/service_3', function(){
+    return view('about_service/service_3');
+})->name('service_3');
+
+Route::get('/service_4', function(){
+    return view('about_service/service_4');
+})->name('service_4');
+
 Route::get('/portfolio', function(){
     return view('portfolio_list/portfolio');
 })->name('portfolio');
@@ -89,6 +97,25 @@ Route::get('/catal_3', function(){
     return view('portfolio_catal/catal_3');
 })->name('catal_3');
 
+// 상세페이지
+
+Route::get('/product_detail_1', function(){
+    return view('portfolio_product/product_detail_1');
+})->name('product_detail_1');
+
+Route::get('/product_detail_2', function(){
+    return view('portfolio_product/product_detail_2');
+})->name('product_detail_2');
+
+Route::get('/product_detail_3', function(){
+    return view('portfolio_product/product_detail_3');
+})->name('product_detail_3');
+
+Route::get('/product_detail_4', function(){
+    return view('portfolio_product/product_detail_4');
+})->name('product_detail_4');
+
+
 // 영상
 Route::get('/video_1', function(){
     return view('portfolio_video/video_1');
@@ -113,6 +140,8 @@ Route::get('/video_5', function(){
 Route::get('/video_6', function(){
     return view('portfolio_video/video_6');
 })->name('video_6');
+
+
 // 백엔드 전 임시 라우팅 처리
 
 // 관리자
