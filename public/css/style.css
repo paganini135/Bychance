@@ -172,23 +172,29 @@ section{
 .ms__ > h1{
   color: white;
     text-align: center;
-    padding-top: 95px;
-    margin-bottom: 90px;
+    position: relative;
+    top: 16%;
 }
 .ms__ > span{
   color:white;
-  display: block;
-  line-height: 35px;
+  display: flex;
 }
 .ms_detail_1{
-  margin-bottom: 70px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  position: relative;
+  top: 33%;
 }
 .ms_detail{
-      margin: 0 auto;
-      display: block;
-      width: 100px;
-      border: 1px solid;
-      line-height: 40px;
+  margin: 0 auto;
+  width: 100px;
+  border: 1px solid;
+  line-height: 40px;
+  justify-content: center;
+  position: relative;
+  top: 46%;
 }
 .ms_detail:hover{
   color: var(--b2-color);

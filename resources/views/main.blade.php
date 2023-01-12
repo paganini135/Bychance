@@ -12,16 +12,6 @@
 			<div><img src="/imgs/banner3.jpg" alt=""><div class="sw_text__box"><h1>슬라이드3</h1></div></div>
 		</div>
 	</div>
-	<!-- <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/imgs/visual1.jpg"><div class="sw_text__box"><h1>슬라이드1</h1></div></div>
-        <div class="swiper-slide"><img src="/imgs/visual2.png"><div class="sw_text__box"><h1>슬라이드2</h1></div></div>
-        <div class="swiper-slide"><img src="/imgs/visual1.jpg"><div class="sw_text__box"><h1>슬라이드3</h1></div></div>
-      </div>
-      <div class="swiper-button-next swiper-button-color"></div>
-      <div class="swiper-button-prev swiper-button-color"></div>
-      <div class="swiper-pagination swiper-button-color"></div>
-    </div> -->
 </div>
 	
 	
@@ -35,7 +25,7 @@
 			<div class="f__box mt-50">
 				<section>
 				<div class="ms_back">
-				<div class="ms__"><h1>WEB</h1><span class="ms_detail_1">기업 홈페이지<br>쇼핑몰 | 상세페이지</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
+				<div class="ms__"><h1>반응형 웹</h1><span class="ms_detail_1">기업 홈페이지<br>쇼핑몰 | 상세페이지</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
 				<div class="ms__"><h1>상세페이지</h1><span class="ms_detail_1">상세페이지 제작</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
 				<div class="ms__"><h1>시각 디자인</h1><span class="ms_detail_1">종이카달로그 | 전자카달로그 | 회사소개서<br>광고디자인 | 제품디자인</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
 				<div class="ms__"><h1>홍보 동영상</h1><span class="ms_detail_1">CF | 브랜드<br>제품 | 유튜브</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>

@@ -206,6 +206,9 @@
   .process_slide > img{
     opacity: 0;
   }
+  .process__data_cont > p{
+    margin-right: 25px !important;
+  }
 }
 @media screen and (max-width: 565px){
   .process__data{
@@ -214,7 +217,8 @@
 }
 @media screen and (max-width: 450px){
   .process__data{
-    right: 52%;
+    left: 4%;
+    width: 350px;
   }
 }
 
