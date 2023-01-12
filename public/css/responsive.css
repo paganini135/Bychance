@@ -144,6 +144,14 @@
     margin-left: 23%;
     padding: 0;
   }
+  .contact__wrap {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .text__area_box-1{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 } 
 @media screen and (max-width: 480px) {
   .port_tit{
@@ -155,6 +163,9 @@
   .cont-box-wrap form a{
     margin-left: 18%;
   }
+  .ms__ > h1 {
+    font-size: 1.8rem;
+}
 }
 @media screen and (max-width: 395px){
   .cont-box-wrap form a{
