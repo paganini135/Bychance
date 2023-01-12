@@ -5,7 +5,7 @@
     <div class="sub_banner">
         <div class="sub_banner_tit_wrap">
             <h1>포트폴리오</h1>
-            <p><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i>Portfolio<i class="fas fa-chevron-right"></i>Web</p>
+            <p><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i>포트폴리오<i class="fas fa-chevron-right"></i>상세페이지</p>
         </div>
     </div>
     <div class="sub_nav_container container">
@@ -20,7 +20,7 @@
     </div>
     <div class="inner_wrap container">
         <div class="about_box">
-            <h2>ALL</h2>
+            <h2>상세페이지</h2>
 
             <div class="port_img_wrap">
                 <div class="port_imgs_box" OnClick="location.href ='product_detail_1'"><img src="/imgs/portfolio/product/product_1.png" alt="" class=""><div class="port_box_tit"><span class="port_tit">담쏙</span><br><span class="port_cont">#상세페이지<span></div></div>

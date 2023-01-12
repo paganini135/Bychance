@@ -5,7 +5,7 @@
     <div class="sub_banner">
         <div class="sub_banner_tit_wrap">
             <h1>포트폴리오</h1>
-            <p><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i>Portfolio<i class="fas fa-chevron-right"></i>Web</p>
+            <p><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i>포트폴리오<i class="fas fa-chevron-right"></i>카달로그</p>
         </div>
     </div>
     <div class="sub_nav_container container">
