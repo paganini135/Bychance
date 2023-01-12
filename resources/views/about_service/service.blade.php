@@ -19,6 +19,9 @@
         </div>
     </div>
     <div class="inner_wrap container">
+        <div class="about_box">
+            <h2>PROCESS</h2>
+        </div>
         <div class="img_center">
             <img src="imgs/process/process__1.png">
         </div>
