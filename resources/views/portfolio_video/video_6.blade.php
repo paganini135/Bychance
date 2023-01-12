@@ -30,9 +30,7 @@
         <div class="d_port_img_wrap">
         <div class="d_port_video mt-50 mb-50">
         <iframe width="624" height="350" src="https://www.youtube.com/embed/zkIqG4Y-awQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>    
-            <!-- <img src="/imgs/portfolio/catal/d_catal__001.png" class="d_port_img">
-            <img src="/imgs/portfolio/catal/d_catal__002.jpg" class="d_port_img"> -->
+        </div>
         </div>
         </div>
     </div>
