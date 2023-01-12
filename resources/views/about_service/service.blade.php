@@ -20,7 +20,7 @@
     </div>
     <div class="inner_wrap container">
         <div class="img_center">
-            <img src="imgs/process/Process__1.png">
+            <img src="imgs/process/process__1.png">
         </div>
     </div>
 </div>

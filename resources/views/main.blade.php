@@ -52,24 +52,17 @@
 					<div class="swiper-wrapper">
 					  <!--==================== DISCOVER 1 ====================-->
 					  <div class="portfolio__card swiper-slide">
-						<img src="/imgs/portfolio/port1.png" alt="" class="discover__img mt-0">
+						<img src="/imgs/portfolio/port2.png" alt="" class="discover__img mt-0">
 						<div class="portfolio__data">
-						  <h2 class="portfolio__title">테스트-All</h2>
+						  <h2 class="portfolio__title">WeddingView</h2>
 						  <span class="portfolio__description">#Web #반응형</span>
 						</div>
 					  </div>
 				   <!-- ...-->
 				   <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/port2.png" alt="" class="discover__img mt-0">
-					<div class="portfolio__data">
-					  <h2 class="portfolio__title">웨딩뷰</h2>
-					  <span class="portfolio__description">#Web #반응형</span>
-					</div>
-				  </div>
-				  <div class="portfolio__card swiper-slide">
 					<img src="/imgs/portfolio/port3.png" alt="" class="discover__img mt-0">
 					<div class="portfolio__data">
-					  <h2 class="portfolio__title">엠토</h2>
+					  <h2 class="portfolio__title">Emto</h2>
 					  <span class="portfolio__description">#Web #반응형</span>
 					</div>
 				  </div>
@@ -77,13 +70,6 @@
 					<img src="/imgs/portfolio/port4.png" alt="" class="discover__img mt-0">
 					<div class="portfolio__data">
 					  <h2 class="portfolio__title">대길부산의전</h2>
-					  <span class="portfolio__description">#Web #반응형</span>
-					</div>
-				  </div>
-				  <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/port5.png" alt="" class="discover__img mt-0">
-					<div class="portfolio__data">
-					  <h2 class="portfolio__title">테스트</h2>
 					  <span class="portfolio__description">#Web #반응형</span>
 					</div>
 				  </div>
@@ -138,39 +124,32 @@
 					<div class="swiper-wrapper">
 					  <!--==================== DISCOVER 1 ====================-->
 					  <div class="portfolio__card swiper-slide">
-						<img src="/imgs/portfolio/bro_test.jpg" alt="" class="discover__img mt-0">
+						<img src="/imgs/portfolio/product/product_1.png" alt="" class="discover__img mt-0">
 						<div class="portfolio__data">
-						  <h2 class="portfolio__title">테스트</h2>
-						  <span class="portfolio__description">#Brochure #Test_img</span>
+						  <h2 class="portfolio__title">담쏙</h2>
+						  <span class="portfolio__description">#상세페이지</span>
 						</div>
 					  </div>
 				   <!-- ...-->
 				   <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/bro_test.jpg" alt="" class="discover__img mt-0">
+					<img src="/imgs/portfolio/product/product_2.png" alt="" class="discover__img mt-0">
 					<div class="portfolio__data">
-					  <h2 class="portfolio__title">테스트</h2>
-					  <span class="portfolio__description">#Brochure #Test_img</span>
+					  <h2 class="portfolio__title">러블리강정-오란다</h2>
+					  <span class="portfolio__description">#상세페이지</span>
 					</div>
 				  </div>
 				  <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/bro_test.jpg" alt="" class="discover__img mt-0">
+					<img src="/imgs/portfolio/product/product_3.png" alt="" class="discover__img mt-0">
 					<div class="portfolio__data">
-					  <h2 class="portfolio__title">테스트</h2>
-					  <span class="portfolio__description">#Brochure #Test_img</span>
+					  <h2 class="portfolio__title">러블리강정</h2>
+					  <span class="portfolio__description">#상세페이지</span>
 					</div>
 				  </div>
 				  <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/bro_test.jpg" alt="" class="discover__img mt-0">
+					<img src="/imgs/portfolio/product/product_4.png" alt="" class="discover__img mt-0">
 					<div class="portfolio__data">
-					  <h2 class="portfolio__title">테스트</h2>
-					  <span class="portfolio__description">#Brochure #Test_img</span>
-					</div>
-				  </div>
-				  <div class="portfolio__card swiper-slide">
-					<img src="/imgs/portfolio/bro_test.jpg" alt="" class="discover__img mt-0">
-					<div class="portfolio__data">
-					  <h2 class="portfolio__title">테스트</h2>
-					  <span class="portfolio__description">#Brochure #Test_img</span>
+					  <h2 class="portfolio__title">웨딩라이브</h2>
+					  <span class="portfolio__description">#상세페이지</span>
 					</div>
 				  </div>
 					</div>
