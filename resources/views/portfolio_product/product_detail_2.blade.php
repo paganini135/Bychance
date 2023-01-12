@@ -28,7 +28,7 @@
             <p class="port_detail_text">정리된 레이아웃으로 전문적인 정보를 가독성 있게 읽어나갈 수 있도록 의도하였습니다.</p>           
             </div>
         <div class="d_port_img_wrap">
-            <img src="/imgs/portfolio/product/d_product_2.png" class="d_port_img">
+            <img src="/imgs/portfolio/product/d_product_2.png" style="width:60%;">
         </div>
         </div>
     </div>
