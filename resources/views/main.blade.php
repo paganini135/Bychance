@@ -362,7 +362,7 @@
 			<div class="text__cont">주소 : 부산광역시 동구 조방로 26번길 9 401호</div>
 			</div>
 			<div class="text__area_2 mt-10">
-			<div class="text__cont half">전화번호 : 051-710-6207</div><div class="text__cont half half_mt">이메일 : weddingview20@gmail.com</div>
+			<div class="text__cont half">전화번호 : 051-710-6207</div><div class="text__cont half half_mt">이메일 : leon981416@naver.com</div>
 			</div>				
 			</div>
 

@@ -24,7 +24,7 @@
             <div class="sub_tit_wrap">
                 <div class="sub_tit_l"><div class="sub_tit_ch">회사명</div></div><div class="sub_tit_r"><div class="sub_tit_ch">By chance tem</div></div>
                 <div class="sub_tit_l"><div class="sub_tit_ch">대표</div></div><div class="sub_tit_r"><div class="sub_tit_ch">박수영</div></div>
-                <div class="sub_tit_l"><div class="sub_tit_ch">사업자등록번호</div></div><div class="sub_tit_r"><div class="sub_tit_ch">423-81-01399</div></div>
+                <div class="sub_tit_l"><div class="sub_tit_ch">사업자등록번호</div></div><div class="sub_tit_r"><div class="sub_tit_ch">756-48-00411</div></div>
                 <div class="sub_tit_l"><div class="sub_tit_ch">대표전화</div></div><div class="sub_tit_r"><div class="sub_tit_ch">051-710-6207</div></div>
             </div>
         </div>
