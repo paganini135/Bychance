@@ -1315,6 +1315,7 @@ input[type="date"]::-webkit-inner-spin-button {
   bottom: 10%;
   right: 5%;
   z-index: 100;
+  text-align-last: center;
   text-align: center;
   cursor: pointer;
 }
@@ -1335,6 +1336,7 @@ input[type="date"]::-webkit-inner-spin-button {
   bottom: 18%;
   right: 5%;
   z-index: 100;
+  text-align-last: center;
   text-align: center;
   cursor: pointer;
 }
