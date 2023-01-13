@@ -21,6 +21,28 @@ let scrollTopbtn =document.getElementById('go-top');
 scrollTopbtn.addEventListener('click',function(){
   window.scrollTo({top: 0, behavior:'smooth'});
 });
+
+$(function(){
+    //마지막 스크롤 값을 저장할 lastScroll 변수
+    var lastScroll = 0;
+    $(window).scroll(function(event){ //스크롤이 움직일때 마다 이벤트 실행
+        //현재 스크롤의 위치를 저장할 st 변수
+        var st = $(this).scrollTop();
+        //스크롤 상하에 따른 반응 정의
+        if (st > lastScroll){
+            if ($(window).scrollTop() >= 200) { //스크롤이 아래로 200px 이상 내려갔을때 실행되는 이벤트 정의
+                $('.go-btn').hide();
+                $('.go-btn2').hide();
+            }
+        } else {
+            //스크롤이 위로 올라갔을때 실행되는 이벤트 정의
+            $('.go-btn').show();
+            $('.go-btn2').show();
+        }
+        //현재 스크롤 위치(st)를 마지막 위치로 업데이트
+        lastScroll = st;
+    });
+});
     
 
 // 포트폴리오 메뉴 선택
