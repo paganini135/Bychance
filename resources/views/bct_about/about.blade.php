@@ -19,6 +19,7 @@
     <div class="inner_wrap container">
         <div class="about_box">
         <h2>GREETING</h2>
+        
         <!-- <h1>By chance:tem<span>은 취향이 될 수 있는 디자인을 연구합니다.</span></h1> -->
         <div class="about_img_wrap">
             <img src="/imgs/banner/banner.jpg">

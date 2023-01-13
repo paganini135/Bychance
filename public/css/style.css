@@ -1303,3 +1303,43 @@ input[type="date"]::-webkit-inner-spin-button {
     width: 100%;
     height: 100%;
 }
+.go-btn{
+  position: fixed;
+  font-size: 1.8rem;
+  width: 40px;
+  height: 40px;
+  color: #4ED7A8;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 50%;
+  bottom: 10%;
+  right: 5%;
+  z-index: 100;
+  text-align: center;
+  cursor: pointer;
+}
+.go-btn:hover{
+  color: white;
+  background-color: #4ED7A8;
+  border: 1px solid #4ED7A8;
+}
+.go-btn2{
+  position: fixed;
+  font-size: 1.8rem;
+  width: 40px;
+  width: 40px;
+  color: #4ED7A8;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 50%;
+  bottom: 18%;
+  right: 5%;
+  z-index: 100;
+  text-align: center;
+  cursor: pointer;
+}
+.go-btn2:hover{
+  color: white;
+  background-color: #4ED7A8;
+  border: 1px solid #4ED7A8;
+}

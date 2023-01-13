@@ -14,6 +14,13 @@ const navMenu = document.getElementById('nav-menu'),
                 navMenu.classList.remove('show-menu')
             })
           }
+
+// go-top
+let scrollTopbtn =document.getElementById('go-top');
+
+scrollTopbtn.addEventListener('click',function(){
+  window.scrollTo({top: 0, behavior:'smooth'});
+});
     
 
 // 포트폴리오 메뉴 선택

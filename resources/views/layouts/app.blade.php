@@ -95,6 +95,14 @@
     <!-- Header desktop end-->
     <!-- Header mobile start-->
     <!-- Header mobile end-->
+    <!-- top button start -->
+    <div class="go-btn" id="go-top2">
+        <i class="fas fa-mobile-alt" onclick="location.href='tel:051-710-6207'"></i>
+    </div>
+    <div class="go-btn2" id="go-top">
+        <i class="fas fa-long-arrow-alt-up"></i>
+    </div>
+    <!-- top button end -->
     @yield('contents')
     <!-- Footer start-->
     <footer class="busandg_footer">
