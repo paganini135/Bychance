@@ -12,7 +12,7 @@
         <div class="sub_nav_wrap">
             <ul>
                 <li><a href="{!!route('simple_contact')!!}">간편상담</a></li>
-                <li><a href="{!!route('contact')!!}">상세등록</a></li>
+                <li><a href="{!!route('contact')!!}" class="active">상세등록</a></li>
             </ul>
         </div>
     </div>

@@ -45,6 +45,7 @@ a{color: var(--title-color);}
 .nav__drop_item:hover a{color: var(--bg-color-2);}
 .text_grey{color: var(--a-color);}
 .text_grey:hover{color: var(--title-color);}
+.active{color: #4ED7A8;}
 /* 색상 */
 
 /*  */
@@ -86,6 +87,8 @@ a{color: var(--title-color);}
 }
 /* 마진 */
 /* 패딩 */
+
+
 .pt-50{
   padding-top: 50px;
 }
@@ -96,6 +99,9 @@ a{color: var(--title-color);}
 
 .pb-50{
   padding-bottom: 50px;
+}
+.pb-30{
+  padding-bottom: 30px;
 }
 
 .pl-80{

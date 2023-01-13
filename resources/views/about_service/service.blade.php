@@ -11,7 +11,7 @@
     <div class="sub_nav_container container">
         <div class="sub_nav_wrap">
             <ul>
-                <li><a href="{!!route('service')!!}" >웹</a></li>
+                <li><a href="{!!route('service')!!}" class="active">웹</a></li>
                 <li><a href="{!!route('service_2')!!}" >상세페이지</a></li>
                 <li><a href="{!!route('service_3')!!}" >카달로그</a></li>
                 <li><a href="{!!route('service_4')!!}" >영상</a></li>

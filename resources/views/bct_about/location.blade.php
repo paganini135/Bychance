@@ -12,7 +12,7 @@
         <div class="sub_nav_wrap">
             <ul>
                 <li><a href="{!!route('about')!!}" >회사소개</a></li>
-                <li><a href="{!!route('location')!!}" >오시는길</a></li>
+                <li><a href="{!!route('location')!!}" class="active">오시는길</a></li>
             </ul>
         </div>
     </div>

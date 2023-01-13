@@ -11,7 +11,7 @@
     <div class="sub_nav_container container">
         <div class="sub_nav_wrap">
             <ul>
-                <li><a href="{!!route('simple_contact')!!}">간편상담</a></li>
+                <li><a href="{!!route('simple_contact')!!}" class="active">간편상담</a></li>
                 <li><a href="{!!route('detail_contact')!!}">상세등록</a></li>
             </ul>
         </div>

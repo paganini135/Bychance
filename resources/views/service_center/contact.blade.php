@@ -11,8 +11,8 @@
     <div class="sub_nav_container container">
         <div class="sub_nav_wrap">
             <ul>
-                <li><a href="{!!route('qna')!!}">자주하는 질문</a></li>
-                <li><a href="{!!route('contact')!!}">견적문의</a></li>
+                <!-- <li><a href="{!!route('qna')!!}">자주하는 질문</a></li> -->
+                <li><a href="{!!route('contact')!!}" class="active">견적문의</a></li>
             </ul>
         </div>
     </div>

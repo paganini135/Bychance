@@ -7,9 +7,15 @@
 	<!-- Slider main container -->
 	<div class="main">
 		<div id="slide">
-			<div><img src="/imgs/visual1.jpg" alt=""><div class="sw_text__box"><h1>슬라이드1</h1></div></div>
-			<div><img src="/imgs/banner2.jpg" alt=""><div class="sw_text__box"><h1>슬라이드2</h1></div></div>
-			<div><img src="/imgs/banner3.jpg" alt=""><div class="sw_text__box"><h1>슬라이드3</h1></div></div>
+			<div><img src="/imgs/visual1.jpg" alt="">
+			<!-- <div class="sw_text__box"><h1>슬라이드1</h1></div> -->
+		</div>
+			<div><img src="/imgs/banner2.jpg" alt="">
+			<!-- <div class="sw_text__box"><h1>슬라이드2</h1></div> -->
+		</div>
+			<div><img src="/imgs/banner3.jpg" alt="">
+			<!-- <div class="sw_text__box"><h1>슬라이드3</h1></div> -->
+		</div>
 		</div>
 	</div>
 </div>
@@ -19,8 +25,8 @@
 	<!-- <div class="container"> -->
 		<div class="container">
 		<div class="icon_box_wrap mt-100">
-			<h1>Main service</h1>
-			<h2 class="mt-20">subtitle</h2>
+			<h1 class="pb-30">Main service</h1>
+			<!-- <h2 class="mt-20">subtitle</h2> -->
 
 			<div class="f__box mt-50">
 				<section>
@@ -36,8 +42,8 @@
 		</div>		
 		<div class="container">
 		<div class="icon_box_wrap mt-100">
-			<h1>Portfolio</h1>
-			<h2 class="mt-20">subtitle</h2>
+			<h1 class="pb-30">Portfolio</h1>
+			<!-- <h2 class="mt-20">subtitle</h2> -->
 			<div class="select__portfolio_wrap mt-30">
 				<!-- <div class="select__portfolio"><a href="#portfolio1">All</a></div> -->
 				<div class="select__portfolio"><a href="#portfolio2">반응형 웹</a></div>
@@ -238,8 +244,8 @@
 		<!-- 문의, 기획, 시안제작, 프로젝트 -->
 		<div class="process__wrap">
 		<div class="icon_box_wrap mt-50 pt-50 pb-50 container">
-			<h1 class="bg-color-1">Process</h1>
-			<h2 class="bg-color-2 mt-20">subtitle</h2>
+			<h1 class="bg-color-1 pb-30">Process</h1>
+			<!-- <h2 class="bg-color-2 mt-20">subtitle</h2> -->
 			<div class="portfolio_container process_box_wrap myswiper2 mt-50">
 			<div class="swiper-pagination-port"></div>
 			<div class="swiper-wrapper  mt-30">
