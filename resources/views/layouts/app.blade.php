@@ -41,7 +41,7 @@
     <!-- Header desktop start-->
     <header class="header" id="header">
             <nav class="nav container">
-                <a href="/" class="nav__logo">By chance tem</a>
+                <a href="/" class="nav__logo"><span class="active">B</span>y <span class="active">C</span>hance <span class="active">T</span>em<span class="active">.</span></a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
