@@ -614,6 +614,7 @@ section{
 .discover__img{
   width: 100%;
   height: 213.69px;
+  object-fit: contain;
 }
 
 /* 인풋박스 테스트*/
