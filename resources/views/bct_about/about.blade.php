@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="inner_wrap container">
-        <div class="about_box">
+        <div class="about_box pb-50">
         <h2>GREETING</h2>
         
         <!-- <h1>By chance:tem<span>은 취향이 될 수 있는 디자인을 연구합니다.</span></h1> -->

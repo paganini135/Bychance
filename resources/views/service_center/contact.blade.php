@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="inner_wrap container">
-        <div class="about_box">
+        <div class="about_box pb-50">
             <h2>Contact</h2>
             <h1>의뢰방법 선택</h1>
             <div class="contact_wrap">

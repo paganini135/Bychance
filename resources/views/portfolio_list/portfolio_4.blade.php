@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="inner_wrap container">
-        <div class="about_box">
+        <div class="about_box pb-50">
             <h2>영상</h2>
 
             <div class="port_img_wrap">

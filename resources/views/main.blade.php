@@ -260,7 +260,7 @@
 		</div>
 		<!-- Process box End -->
 	<div class="container">
-		<div class="icon_box_f_wrap">
+		<div class="icon_box_f_wrap mb-50">
 		<div class="icon_box_wrap_1 mt-100">
 			<h1 class="welcome pb-50">Contact</h1>
 
