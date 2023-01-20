@@ -109,7 +109,7 @@
       <div class="dg__footer_wrap container">
         <div class="dg__footer_right">
         <div class="dg__footer__info">
-          <p>대표자 : <span>박수영</span><br>소재지 : <span>부산광역시 동구 조방로 26번길 9 401호</span></p>
+          <p>소재지 : <span>부산광역시 동구 조방로 26번길 9 401호</span></p>
           <p>전화번호 : <span>051-710-6207</span><br>전자우편 : <span>leon981416@naver.com</span></p>
           <p>사업자등록번호 : <span>756-48-00411</span><br>통신판매업신고 : <span>제 2020-부산중구-0178호</span></p>
           <p><span class="dg__copy">Copyright © By chance tem. All rights reserved.</span></p>
