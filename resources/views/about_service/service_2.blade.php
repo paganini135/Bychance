@@ -23,6 +23,9 @@
             <h2>PROCESS</h2>
         </div>
         <div class="img_center">
+             <div>
+                <div class="port__detail_bt mb-20"><a href="portfolio_2">포트폴리오 상세보기</a></div>
+            </div>
             <img src="imgs/process/process__2.png">
         </div>
     </div>

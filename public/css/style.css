@@ -1350,3 +1350,19 @@ input[type="date"]::-webkit-inner-spin-button {
 .go-btn2 > i {
   vertical-align: baseline;
 }
+
+.port__detail_bt{
+  border: 1px solid #4ED7A8;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #4ED7A8;
+    /* color: white; */
+    font-size: 15px;
+    border-radius: 25px;
+}
+.port__detail_bt:hover{
+  background: rgba(78, 215, 168, 0.9);
+}
+.port__detail_bt > a {
+  color: white;
+}

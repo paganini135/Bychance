@@ -85,6 +85,10 @@ a{color: var(--title-color);}
 .mb-50{
   margin-bottom: 50px;
 }
+
+.mb-20{
+  margin-bottom: 20px;
+}
 /* 마진 */
 /* 패딩 */
 
