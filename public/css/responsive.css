@@ -52,11 +52,18 @@
   section{
     width: 200%;
     overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
   }
   section::-webkit-scrollbar {
-    display: none;
+    width: 100%;
+  }
+  section::-webkit-scrollbar-thumb{    
+    background: rgba(169,169,169,0.7);
+    border-radius: 10px;
+  }
+  /* 스크롤 여백 */
+  section::-webkit-scrollbar-track{
+    background: white;
+   
   }
   .ms_back{
     width: 200%;

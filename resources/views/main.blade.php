@@ -36,7 +36,7 @@
 				<div class="ms__"><h1>시각 디자인</h1><span class="ms_detail_1">종이카달로그 | 전자카달로그 | 회사소개서<br>광고디자인 | 제품디자인</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
 				<div class="ms__"><h1>홍보 동영상</h1><span class="ms_detail_1">CF | 브랜드<br>제품 | 유튜브</span><span class="ms_detail" onclick="location.href='service'">VIEW</span></div>
 				</div>
-				<section>
+				</section>
 			</div>
 		</div>
 		</div>		
