@@ -39,6 +39,27 @@
 				</section>
 			</div>
 		</div>
+		</div>
+		<div class="process_wrap">
+			<div class="icon_box_wrap_3 mt-50 pt-50 pb-150">
+				<h1 class="pb-30">TECHNOLOGIES</h1>
+				<div class="skill container mt-50">
+				<div class="row-1">
+				<div><i class="fab fa-html5"></i><p>HTML</p></div>
+				<div><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+				<div><i class="fab fa-js"></i><p>JS</p></div>
+				<div><i class="fas fa-power-off"></i><p>SPRING BOOT</p></div>
+				<div><i class="fas fa-project-diagram"></i><p>KAFKA</p></div>
+				</div>
+				<div class="row-2 mt-100">
+				<div><i class="fab fa-laravel"></i><p>LARAVEL</p></div>				
+				<div><i class="fas fa-database"></i><p>DATABASE</P></div>
+				<div><i class="fab fa-docker"></i><p>DOCKER</p></div>
+				<div><i class="fab fa-aws"></i><p>AWS</p></div>
+				<div><i class="fas fa-network-wired"></i><p>RABBIT MQ</p></div>
+				</div>				
+				</div>
+			</div>
 		</div>		
 		<div class="container">
 		<div class="icon_box_wrap mt-100">
@@ -259,6 +280,7 @@
 		</div>
 		</div>
 		<!-- Process box End -->
+		
 	<div class="container">
 		<div class="icon_box_f_wrap mb-50">
 		<div class="icon_box_wrap_1 mt-100">
@@ -274,43 +296,49 @@
 				
 				
 				<div class="cont-box-wrap">
+					<!-- create test -->
+					<form action="{!! route('calls') !!}" method="post" enctype="multipart/form-data" name="frm" id="frm">
+						@csrf
 				<div class="cont-box">
-					<select name="">
+					<select name="project">
 						<option>프로젝트를 선택해주세요.</option>
-						<option>웹</option>
-						<option>상세페이지</option>
-						<option>카달로그</option>
-						<option>영상</option>
+						<option value="웹">웹</option>
+						<option value="상세페이지">상세페이지</option>
+						<option value="카달로그">카달로그</option>
+						<option value="영상">영상</option>
 					</select>
 					<label>프로젝트 선택</label>
 				</div>
 				<div class="cont-box-2">
-					<input type="text" name="" required="">
+					<input type="text" name="cname" required="" value="">
 					<label>업체명</label>
 				</div>
 				<div class="cont-box-2">
-					<input type="text" name="" required="">
+					<input type="text" name="name" required="" value="">
 					<label>담당자명</label>
 				</div>
 				<div class="cont-box-2">
-					<input type="text" name="" required="">
+					<input type="text" name="phone" required="" value="">
 					<label>연락처</label>
 				</div>
 				<div class="cont-box-2">
-					<input type="text" name="" required="">
+					<input type="text" name="email" required="" value="">
 					<label>이메일</label>
 				</div>
 				<div class="cont-box-2">
-					<input type="file">
+					<input type="file" name="file"value="">
 					<label>첨부파일</label>
 				</div>
-				<a href="#">
+				<a href="#" onclick="return chk_form()">
+					<input type="hidden" value="간편" name="type">
      			 <span></span>
      			 <span></span>
      			 <span></span>
      			 <span></span>
      			 상담신청
     			</a>
+				</form>
+				<!-- create test -->
 				</div>
 					<!-- <table class="contact__table">
 						<tr>
@@ -378,6 +406,13 @@
 	<!-- </div> -->
 </div>
 
+<!-- 상담신청 test -->
+<script>
+	function chk_form(){
+		document.getElementById('frm').submit();
+	}
+</script>
+<!-- 상담신청 test -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="/js/swiper.js"></script>

@@ -4,18 +4,20 @@ ol, ul {list-style:none}
 blockquote, q {quotes:none}
 blockquote:after, blockquote:before, q:after, q:before {content:"";content:none}
 table {border-collapse:collapse;border-spacing:0}
-a{text-decoration: none;}
+a{text-decoration: none; color: #333;}
 option{color: black;}
+html,body{margin: 0; height: 100%; overflow: hidden;}
 
 .header__{
     width: 100%;
     height: 80px;
     line-height: 80px;
-    border-bottom: 1px solid #eee;
+    background: rgb(35,47,63);
 }
 .h_logo{
     margin-left: 30px;
     font-weight: bold;
+    color:white;
 }
 .h_logo > span{
     margin-left: 50px;
@@ -25,16 +27,22 @@ option{color: black;}
     width: 10%;
     float: left;
     text-align: center;
+    background: rgb(55,76,96);
     border-right: 1px solid #eee;
-    min-height: 800px;
+    height: 100%;
 }
 .nav__tit{
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     line-height: 60px;
 }
 .nav__cont > a{
     display: block;
     line-height: 60px;
+    color: white;
+}
+.nav__tit > p {
+    color: rgb(19,194,221);
 }
 
 .container{
@@ -117,8 +125,8 @@ tbody tr:nth-child(2n+1) {
 
 .name-box{
     width: 100%;
-    height: 130px;
-    line-height: 130px;
+    height: 82px;
+    line-height: 82px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -156,3 +164,25 @@ tbody tr:nth-child(2n+1) {
     margin-top: 25px;
     margin-left: 20px;
 }
+.h_login{
+    position: absolute;
+    top: -2.4%;
+    right: 5%;
+    color: white;
+}
+.admin_home{
+    color: white;
+}
+.admin_home:hover{
+    color: white;
+}
+
+/* 로그인 로그아웃 커스텀 */
+a.text-sm.text-gray-700.dark\:text-gray-500.underline {
+    color: white;
+}
+.py-4{
+    padding-top: 0 1rem !important;
+    padding-bottom: 0 rem !important;
+}
+/* 로그인 로그아웃 커스텀 */

@@ -138,7 +138,7 @@
 
 /* 아이콘박스 */
 
-.icon_box_wrap > h1, .icon_box_wrap >h2{
+.icon_box_wrap > h1, .icon_box_wrap >h2, .icon_box_wrap_3 > h1{
  text-align: center;
  text-transform: uppercase;
 }
@@ -985,7 +985,12 @@ table.contact__table {
 /* qna */
 
 /* 상담 */
-
+input[type="text"]{
+  cursor: pointer;
+}
+textarea{
+  cursor: pointer;
+}
 
 .login-box {
   position: relative;
@@ -1026,6 +1031,17 @@ table.contact__table {
   background: transparent;
 }
 .login-box .user-box_2 input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box textarea {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -1078,6 +1094,20 @@ table.contact__table {
 }
 .login-box .user-box select:focus ~ label,
 .login-box .user-box select:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.login-box .user-box textarea:focus ~ label,
+.login-box .user-box textarea:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.login-box .user-box textarea:focus ~ label,
+.login-box .user-box textarea:valid ~ label {
   top: -20px;
   left: 0;
   color: #03e9f4;
@@ -1365,4 +1395,36 @@ input[type="date"]::-webkit-inner-spin-button {
 }
 .port__detail_bt > a {
   color: white;
+}
+.row-1, .row-2{
+  display: flex;
+  flex-flow: wrap;
+}
+.row-1 > div, .row-2 > div{
+  display: flex;
+  flex: auto;
+  position: relative;
+  justify-content: center;
+}
+.row-1 >div > i, .row-2 >div > i{
+  font-size: 70px;
+  color: #4ED7A8; 
+}
+.icon_box_wrap_3{
+  width: 100%;
+}
+.icon_box_wrap_3 >h1{
+  color: black;
+}
+
+.row-1 > div > p, .row-2 > div > p {
+  position: absolute;
+    top: 120%;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.row-1, .row-2 {
+  flex-basis: 100% !important;
 }

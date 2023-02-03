@@ -21,6 +21,10 @@ use App\Http\Controllers\ContactController;
 Route::get('/', function () {
     return view('main');
 });
+// 테스트
+Route::post('/call',[App\Http\Controllers\ContactController::class, 'store'])->name('calls');
+
+// 테스트
 
 // Route::post('/contact',[App\Http\Controllers\ContactController::class, 'store'])->name('contacts');
 
@@ -160,7 +164,7 @@ Route::get('/video_6', function(){
 
 // 관리자
 
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/', function () {
         return view('admin');
     });
@@ -174,6 +178,7 @@ Route::prefix('admin')->group(function () {
     })->name('port_add');
 
     // 상담신청현황 view
+    // Route::get('/user_contact', [ProductController::class, 'index'])->name('user_contact');
     Route::get('/user_contact',[ContactController::class, 'Contacts'])->name('user_contact');
     // Route::get('/user_contact', function(){
     //     return view('admin/contact');
@@ -183,11 +188,17 @@ Route::prefix('admin')->group(function () {
         return view('admin/simple__contact');
     })->name('simple__contact');
 
-    Route::get('/detail__contact', function(){
-        return view('admin/detail__contact');
-    })->name('detail__contact');
+    Route::get('/detail__contact/{id}', [App\Http\Controllers\ContactController::class, 'detail__contact']);
+    Route::get('detail__contact_delete',[App\Http\Controllers\ContactController::class, 'delete'])->name('contacts_delete');
+    // Route::get('/detail__contact', function(){
+    //     return view('admin/detail__contact');
+    // })->name('detail__contact');
 });
 
 
 
 
+Auth::routes();
+
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+Route::get('logout', [App\Http\Controllers\HomeController::class, 'logout'])->name('logout');

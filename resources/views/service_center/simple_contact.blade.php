@@ -21,37 +21,40 @@
             <h2>프로젝트 간편상담</h2>
             <div class="login-box">
   <h2>업체정보와 첨부파일을 등록해주세요.</h2>
-  <form>
+  <form action="{!! route('calls') !!}" method="post" enctype="multipart/form-data" name="frm" id="frm">
+      @csrf
   <div class="user-box">
-      <select name="tq" style="background-color:transparent;">
+      <select name="project" style="background-color:transparent;">
         <option>프로젝트를 선택해주세요.</option>
-        <option>Web</option>
-        <option>Web2</option>
-        <option>Web3</option>
+        <option value="웹">웹</option>
+				<option value="상세페이지">상세페이지</option>
+				<option value="카달로그">카달로그</option>
+				<option value="영상">영상</option>
       </select>
       <label>프로젝트 선택</label>
     </div>
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" name="cname" required="">
       <label>업체명</label>
     </div>
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" name="name" required="">
       <label>담당자명</label>
     </div>
     <div class="user-box">
-      <input type="number" name="" required="">
+      <input type="text" name="phone" required="">
       <label>연락처</label>
     </div>
     <div class="user-box">
-      <input type="email" name="" required="">
+      <input type="text" name="email" required="">
       <label>이메일</label>
     </div>
     <div class="user-box_2">
-      <input type="file" name="" required="">
+      <input type="file" name="file" required="">
       <label>첨부파일</label>
     </div>
-    <a href="#">
+    <a href="#" onclick="return chk_form()">
+      <input type="hidden" value="간편" name="type">
       <span></span>
       <span></span>
       <span></span>
@@ -63,5 +66,11 @@
         </div>
     </div>
 </div>
+
+<script>
+	function chk_form(){
+		document.getElementById('frm').submit();
+	}
+</script>
 
 @endsection

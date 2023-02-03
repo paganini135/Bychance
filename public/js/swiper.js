@@ -18,6 +18,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+
 // 포트폴리오 슬라이드
 var bullet = ['Step1','Step2','Step3','Step4'];
 

@@ -101,7 +101,16 @@
   }
   .port_imgs_box{
     width: 33.333%;
-  }  
+  }
+  .row-1 >div > i, .row-2 >div > i{
+    font-size: 40px;
+  } 
+  .row-1 > div > p, .row-2 > div > p{
+    font-size: 13px;
+  }
+  .icon_box_wrap_3 {
+    padding-bottom: 0px;
+} 
 } 
 @media screen and (max-width: 600px) {
   .about_box > h1{
