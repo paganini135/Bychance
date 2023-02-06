@@ -17,15 +17,15 @@ class ContactController extends Controller
         $Contacts = \App\Models\Contacts::all();
         Contacts::create([
             'type'=>$Request->input('type'),
-            'pro_start'=>$Request->input('pro_start'),
-            'pro_end'=>$Request->input('pro_end'),
+            'pro_start'=>$Request->input('pro_start',null),
+            'pro_end'=>$Request->input('pro_end',null),
             'project'=>$Request->input('project'),
             'cname'=>$Request->input('cname'),
             'name'=>$Request->input('name'),
             'phone'=>$Request->input('phone'),
             'email'=>$Request->input('email'),
             'contents'=>$Request->input('contents'),
-            'file'=>$Request->file('file')
+            'file'=>$Request->file('file',null)
         ]);
         return redirect()->back();
     }
