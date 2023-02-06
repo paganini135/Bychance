@@ -14,7 +14,7 @@ class ContactController extends Controller
     }
 
     public function store(Request $Request){
-        $Contacts = \App\Models\contacts::all();
+        $Contacts = \App\Models\Contacts::all();
         Contacts::create([
             'type'=>$Request->input('type'),
             'pro_start'=>$Request->input('pro_start'),
