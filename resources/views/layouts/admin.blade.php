@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>바이챈스템-관리자</title>
     <!-- css -->
+    <link rel="stylesheet" href="{{ asset('/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/admin.css')}}">
+    
     
     
     
