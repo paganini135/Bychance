@@ -41,7 +41,7 @@ html,body{margin: 0; height: 100%; overflow: hidden;}
     line-height: 60px;
     color: white;
 }
-.nav__tit > p {
+.nav__tit > p > a{
     color: rgb(19,194,221);
 }
 

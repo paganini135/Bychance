@@ -42,7 +42,7 @@
     </header>
     <nav class="nav__">
         <div class="nav__tit">
-            <p>BCT</p>
+            <p><a href="http://byct.kr/" target="_blank">BCT</a></p>
         </div>
         <div class="nav__cont">
             <!-- <a href="{!!route('user_portfolio')!!}">포트폴리오</a> -->
