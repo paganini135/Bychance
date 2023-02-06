@@ -45,7 +45,7 @@
             <p>BCT</p>
         </div>
         <div class="nav__cont">
-            <a href="{!!route('user_portfolio')!!}">포트폴리오</a>
+            <!-- <a href="{!!route('user_portfolio')!!}">포트폴리오</a> -->
             <a href="{!!route('user_contact')!!}">상담신청현황</a>
         </div>
     </nav>
