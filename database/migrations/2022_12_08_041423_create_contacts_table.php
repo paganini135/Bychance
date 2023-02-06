@@ -15,17 +15,17 @@ return new class extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
-            $table->string('type');
-            $table->string('confirm');
-            $table->string('project');
-            $table->date('pro_start');
-            $table->date('pro_end');
-            $table->string('contents');
-            $table->string('cname');
-            $table->string('name');
-            $table->string('phone');
-            $table->string('email');
-            $table->string('file');
+            $table->string('type')->nullable();
+            $table->string('confirm')->nullable();
+            $table->string('project')->nullable();
+            $table->date('pro_start')->nullable();
+            $table->date('pro_end')->nullable();
+            $table->string('contents')->nullable();
+            $table->string('cname')->nullable();
+            $table->string('name')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('email')->nullable();
+            $table->string('file')->nullable();
             $table->timestamps();
         });
     }
