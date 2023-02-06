@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="{{ asset('/css/responsive.css')}}">
     <link rel="shortcut icon" href="{{ asset('/img/web_icon.png')}}" type="image/x-icon">
 
-    <!-- 임시 -->
-    <!-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) -->
-    <!-- 임시 -->
     <!-- 스와이퍼 css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="{{ asset('/css/swiper.css')}}">

@@ -9,7 +9,7 @@ class ContactController extends Controller
 {
 
     public function Contacts(){
-        $Contacts = \App\Models\contacts::all();
+        $Contacts = \App\Models\Contacts::all();
         return view('admin/contact',compact('Contacts'));
     }
 
