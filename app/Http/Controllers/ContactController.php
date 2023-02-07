@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contacts;
+use Illuminate\Support\Facades\Storage;
 
 class ContactController extends Controller
 {
@@ -56,11 +57,20 @@ class ContactController extends Controller
         return view('admin/detail__contact',compact('data'));
     }
 
+    // public function delete(Request $request){
+    //     foreach ($request->check_id as $id){
+    //         Contacts::where('id',$id)->delete();
+    //     }
+
+    //     return 200;
+    // }
     public function delete(Request $request){
         foreach ($request->check_id as $id){
+            $contact = Contacts::where('id',$id)->first();
+            Storage::delete('public/contacts/'.$contact->file);
             Contacts::where('id',$id)->delete();
         }
-
+    
         return 200;
     }
 
