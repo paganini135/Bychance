@@ -8,6 +8,7 @@ use App\Models\Contacts;
 class ContactController extends Controller
 {
 
+    
     public function Contacts(){
         $Contacts = \App\Models\Contacts::all();
         return view('admin/contact',compact('Contacts'));
@@ -15,6 +16,15 @@ class ContactController extends Controller
 
     public function store(Request $Request){
         $Contacts = \App\Models\Contacts::all();
+
+        if ($Request->hasFile('file')) {
+            $file = $Request->file('file');
+            $fileName = time().'.'.$file->getClientOriginalExtension();
+            $file->storeAs('public/contacts', $fileName);
+        } else {
+            $fileName = null;
+        }
+        
         Contacts::create([
             'type'=>$Request->input('type'),
             'pro_start'=>$Request->input('pro_start',null),
@@ -25,9 +35,18 @@ class ContactController extends Controller
             'phone'=>$Request->input('phone'),
             'email'=>$Request->input('email'),
             'contents'=>$Request->input('contents'),
-            'file'=>$Request->file('file',null)
+            'file' => $fileName
         ]);
         return redirect()->back();
+    }
+
+    public function download($id) {
+        $contact = Contacts::find($id);
+        if (!$contact) {
+            abort(404);
+        }
+        $filePath = storage_path('app/public/contacts/'.$contact->file);
+        return response()->download($filePath);
     }
 
     public function detail__contact($id){

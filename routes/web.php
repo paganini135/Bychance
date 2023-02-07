@@ -190,6 +190,11 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 
     Route::get('/detail__contact/{id}', [App\Http\Controllers\ContactController::class, 'detail__contact']);
     Route::get('detail__contact_delete',[App\Http\Controllers\ContactController::class, 'delete'])->name('contacts_delete');
+
+    
+    // Route::get('/download/{id}', 'ContactsController@download');
+    // Route::get('/download/{id}', 'ContactsController@download')->name('download');
+    Route::get('/download/{id}', [App\Http\Controllers\ContactController::class,'download'])->name('download');
     // Route::get('/detail__contact', function(){
     //     return view('admin/detail__contact');
     // })->name('detail__contact');
